@@ -70,6 +70,17 @@ body {
     color: var(--ocean);
 }
 
+.active::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: var(--iris);
+    position: relative;
+    top: 16px;
+}
+
 .list-contacts {
     list-style: none;
     display: flex;
