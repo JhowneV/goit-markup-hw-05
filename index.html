@@ -48,12 +48,12 @@
             <section class="hero bg-dark">
                 <div class="hero-section">
                     <h1 class="hero-text">Effective Solutions <br> for your Business</h1>
-                    <button class="hero-button data-modal-open">Our Services</button>
-                    <div class="modal">
-                        <div class="data-modal is-hidden">
-                            <button type="button" class="data-modal-close">&times;</button>
+                    <button type="button" class="hero-button" data-modal-open>Our Services</button>    
+                        <div class="backdrop is-hidden" data-modal>
+                            <div class="modal">
+                                <button class="modal-close-button" data-modal-close>&times;</button>
+                            </div>
                         </div>
-                    </div>
                 </div>              
             </section>
         
@@ -331,6 +331,6 @@
                 </div>
             </section>
         </Footer>
-        <script src="./js/modal.js"></script>
+        <script src="./js/modal.js" type="text/javascript"></script>
     </body>
 </html>
