@@ -20,6 +20,7 @@ body {
     padding-left: 0;
     display: flex;
     gap: 24px;
+    align-items: center;
     justify-content: center;
 }
 /*END OF GENERAL STYLING*/
@@ -212,6 +213,12 @@ body {
 }
 
 /*ABOUT SECTION STYLING*/
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .about-icon {
     padding: 24px 100px;
     text-align: center;
@@ -228,6 +235,11 @@ body {
     display: block;
 }
 
+.our-teams-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .p-text {
     color: var(--navy);
     font-size: 16px;
@@ -255,6 +267,7 @@ body {
 .team-title-socials {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .team-title-socials-icons {
